@@ -1,0 +1,113 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebf0f7f9;
+    background-image: url('vv.jpg'); /* Add the URL of your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keep the background image fixed during scrolling */
+    text-align: center;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(227, 106, 227, 0.76); /* Slightly transparent white background */
+    border: 1px solid #dfe6d271;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.certificate-container {
+    display: none;
+    width: 80%;
+    max-width: 700px;
+    max-height: 1000px;
+    margin: 30px auto;
+}
+
+.certificate {
+    padding: 20px;
+    border: 2px solid #2003fd;
+    border-radius: 10px;
+    background-color: rgba(246, 246, 246, 0.969); /* Slightly transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.college-logo {
+    max-width: 100px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #fe0909;
+    font-style: arial;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.student-detail {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.completion-date {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
